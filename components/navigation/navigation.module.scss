@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
+.navigation {
+  display: flex;
+  height: 10vh;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: rgb(245, 233, 201);
+  border-bottom: 1px solid rgb(245, 233, 201);
+
+  .logo {
+    font-family: "Passion One", cursive;
+
+    text-align: end;
+    font-size: 5rem;
+    line-height: 0.75;
+    letter-spacing: -0.1rem;
+
+    a {
+      text-decoration: none;
+      color: rgb(238, 128, 2);
+    }
+  }
+  ul {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+
+    a {
+      text-decoration: none;
+      color: rgb(245, 233, 201);
+    }
+  }
+}

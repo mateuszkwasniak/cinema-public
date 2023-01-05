@@ -1,0 +1,79 @@
+.repertoire {
+  width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    padding: 5rem;
+
+    font-size: 3.5rem;
+
+    .date {
+      color: rgb(238, 128, 2);
+    }
+  }
+
+  .film {
+    padding: 5rem;
+    display: flex;
+    width: 50vw;
+    justify-content: flex-start;
+    gap: 5rem;
+    border-bottom: 1px solid rgb(245, 233, 201);
+    &:last-child {
+      border: none;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+      }
+
+      .genre {
+        margin-bottom: 1rem;
+        span {
+          padding: 0.2rem 1rem 0.2rem 1rem;
+          font-size: 2rem;
+          border-right: 1px solid rgb(245, 233, 201);
+          &:last-child {
+            border: none;
+          }
+          &:first-child {
+            padding-left: 0;
+          }
+        }
+      }
+
+      .director {
+        font-size: 2.2rem;
+        margin-bottom: 5rem;
+      }
+
+      .hours {
+        display: flex;
+        gap: 2rem;
+        .hour {
+          text-decoration: none;
+          font-size: 2rem;
+          padding: 1.5rem;
+          color: black;
+          border-radius: 0.5rem;
+          font-weight: 700;
+          background-color: rgb(238, 128, 2);
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-color: rgb(253, 169, 73);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.orderSummary {
+  width: 100%;
+  min-height: 90vh;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    opacity: 0.4;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  article {
+    font-size: 2.5rem;
+    font-weight: 500;
+    border: 1px solid rgb(245, 233, 201);
+    padding: 2rem;
+    background-color: black;
+  }
+
+  p {
+    font-size: 2.5rem;
+
+    span {
+      font-weight: 700;
+      color: rgb(238, 128, 2);
+      font-size: 5rem;
+    }
+  }
+
+  .info {
+    margin-top: 18rem;
+  }
+}

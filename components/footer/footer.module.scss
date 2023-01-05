@@ -1,0 +1,44 @@
+.footer {
+  padding: 5rem 0 1rem 0;
+  width: 100%;
+  border-top: 1px solid rgb(245, 233, 201);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 8rem;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        color: white;
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: rgb(245, 233, 201);
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    p {
+      font-size: 1.5rem;
+      color: rgb(245, 233, 201);
+    }
+  }
+}
